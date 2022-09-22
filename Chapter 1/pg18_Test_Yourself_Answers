@@ -1,0 +1,124 @@
+Test Yourself Questions on pg 18
+
+1. What is meant by a variable?
+A place in memory that is used to store a value
+
+2. What do we mean by the value of a variable?
+This is the value that we give to a variable
+
+3. What kind of statement is used to instruct the computer to use a variable to store a value?
+assignment is the statement used to instruct the computer to use a variable to store a value e.g. firstName = "Oide"
+
+4. Write a statement to instruct the computer to use the variable age to store the value 6.
+age = 6
+
+5. State two things that must be avoided when naming variables.
+Dont start with a number
+Dont include spaces
+No special characters
+Dont contain reserved Python keywords
+
+6. In Python, what two options do we have if we want to use two words in a variable name? Give an example of each.
+firstName - camelCase
+first_name - userscore
+
+7. What are Python keywords?
+These are words reserved for the python coding language
+
+8. Why should we avoid using Python keywords for variable names?
+Using them will lead to errors
+
+9. What are the four main variable types used in Python? Give an example of two of these.
+Integer e.g 10
+Float e.g. 3.14
+String e.g. "oide"
+Boolean e.g. True or False
+
+10. Write the code to assign a value of 20 to a variable named houseNumber.
+houseNumber = 20
+
+11. What type of statement did you use in your code for the previous question?
+assignment operator
+
+12. What variable type will Python select for the variable houseNumber above? Write the code to display this variable type.
+integer
+print(type(houseNumber))
+
+13. What do we call the variable type used for whole numbers only?
+Integers
+
+14. What do we call the variable type used for numbers with a decimal point?
+Float
+
+15. What are the names of the two numerical variable types? 
+integer and float
+
+16. Give an example of how to convert a variable value from one type to another.
+myInt = int("5")
+
+17. If a variable y has a value of 6, write the code to convert it to a variable of type float.
+y = 6
+y = float(y)
+
+18. Re-write the code from the previous question to convert variable value of y to a variable of type string.
+y = 6
+y = str(y)
+
+19. What are arithmetic operations?
+maths operators e.g. add, subtract etc
+
+20. Give five examples of arithmetic operations, using the correct symbols.
++
+-
+*
+/
+%
+
+21. Give an example of some code that multiplies two numbers together and displays the result.
+print(5*4)
+
+22. Give an example of some code that divides one number by another and displays the result.
+print(20/5)
+
+23. What variable type is always the result of a division operation?
+float
+
+24. What does floor division mean?
+The number before the decimal point
+
+25. What operator symbol is used for floor division?
+//
+
+26. What is the variable type of the result of a floor division operation?
+
+27. What is the result of a modulus operation?
+
+28. What symbol is used for the modulus operator?
+
+29. What is the symbol for the exponent operator?
+
+30. What does the exponent operation mean?
+
+31. In an assignment statement, which side of the assignment operator is generally calculated first? Which variable changes?
+
+32. What does incrementing mean?
+
+33. Write the code for incrementing a variable x by  and then by 9.
+
+34. Write this code in an alternative way.
+
+35. What does this code mean? x*=4
+
+36. What does this code mean? x//=5
+
+37. What does decrementing mean?
+
+38. Write down an acronym to remind you of the order of operations used in Python.
+
+39. If all the operations are of equal order in a line of code, what order will Python use?
+
+40. The function round(x, 2) has two arguments. What do we mean by arguments? How does the function use the arguments in this case?
+
+41. Name two types of operation used on strings. State what each one does.
+
+42. Give an example of code illustrating each of the types of operation above.
