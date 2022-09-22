@@ -90,35 +90,65 @@ The number before the decimal point
 //
 
 26. What is the variable type of the result of a floor division operation?
+integer
 
 27. What is the result of a modulus operation?
+the remainder after dividing 2 numbers
 
 28. What symbol is used for the modulus operator?
+%
 
 29. What is the symbol for the exponent operator?
+**
 
 30. What does the exponent operation mean?
+raise to the power
 
 31. In an assignment statement, which side of the assignment operator is generally calculated first? Which variable changes?
+the right hand side of the assignment
 
 32. What does incrementing mean?
+to increase the number by a certain amount
 
-33. Write the code for incrementing a variable x by  and then by 9.
+33. Write the code for incrementing a variable x by 1 and then by 9.
+x+=1
+x+=9
 
 34. Write this code in an alternative way.
+x = x + 1
+x = x + 9
 
 35. What does this code mean? x*=4
+take the value in x, multiply by 4 and store back in x
 
 36. What does this code mean? x//=5
+take the value in x, floor divide by 5 and store the whole number back in x
 
 37. What does decrementing mean?
+to decrease the number by a certain amount
 
 38. Write down an acronym to remind you of the order of operations used in Python.
+BIMDAS
 
 39. If all the operations are of equal order in a line of code, what order will Python use?
+work from the left
 
 40. The function round(x, 2) has two arguments. What do we mean by arguments? How does the function use the arguments in this case?
+x is the number to round, 2 is the number of decimal places
 
 41. Name two types of operation used on strings. State what each one does.
+concatentate, replication
 
 42. Give an example of code illustrating each of the types of operation above.
+Concatentation
+string1 = "Hello"
+string2 = "World!"
+answer = string1 + string2
+print(answer)
+output will be "HelloWorld!"
+
+Replication
+string1 = "Hello"
+answer = string1 * 3
+print(answer)
+output will be "HelloHelloHello"
